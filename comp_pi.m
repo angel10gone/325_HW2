@@ -13,8 +13,3 @@ for i = 1:n_inside
     pi_est = 4*i/n_total; %calculates pi_est for all points in n_inside
 end 
 end
-
-
-%part2 - while loop condition using n_inside
-% while loop should update n_total and then compute pi_est afterwards
-%computational cost must be proportional to random points
