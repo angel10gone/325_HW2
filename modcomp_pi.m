@@ -26,6 +26,3 @@ for i = 1:n_inside
     pi_est = 4*i/n_total; %calculates pi_est for all points in n_inside
 end 
 end
-
-
-
