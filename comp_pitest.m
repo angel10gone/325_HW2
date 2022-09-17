@@ -26,5 +26,5 @@ d
 function assertAccuracy(pi_est1, pi_est2)
 diff1 =  abs(pi - pi_est1);
 diff2 = abs(pi - pi_est2);
-assert(diff1 > diff2)
+assert(diff1 >= diff2)
 end
