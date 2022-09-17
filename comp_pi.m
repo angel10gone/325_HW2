@@ -1,6 +1,4 @@
 function pi_est = comp_pi(n_total)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
 n_inside = 0; %creates variable for # of points inside circle
 for i = 1:n_total
     x = 2*rand()-1; %randomly generates points from -1 to 1
